@@ -1,0 +1,20 @@
+﻿<Window x:Class="ResponcesOnline.ProfileWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ResponcesOnline"
+        mc:Ignorable="d"
+        Title="ProfileWindow" MaxHeight="245" MaxWidth="400" MinHeight="245" MinWidth="400">
+    <Grid Margin="10">
+        <StackPanel>
+            <Label FontSize="15">Имя пользователя</Label>
+            <TextBox x:Name="UserName"></TextBox>
+            <Label FontSize="15">Логин</Label>
+            <TextBox x:Name="UserLogin"></TextBox>
+            <Label FontSize="15">Пароль</Label>
+            <TextBox x:Name="UserPassword"></TextBox>
+            <Button FontSize="15" Margin="0 12">Сохранить изменения</Button>
+        </StackPanel>
+    </Grid>
+</Window>
